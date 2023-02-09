@@ -38,7 +38,7 @@ const fetchData=(city)=>{
     
     
     <main className="container p-5">
-              <div style={{width:"50%",margin:"auto",marginBottom:"1rem"}} className="d-flex" role="search">
+              <div className="searchbox d-flex" style={{margin:"auto",marginBottom:"1rem"}} role="search">
         <input className="form-control me-1 py-2 fs-5" type="search" placeholder="Search City..." value={city} onChange={(e)=>setCity(e.target.value)}/>
         <button className="btn btn-outline-success me-1 fs-5" onClick={()=>fetchData(city)}>Search</button>
       </div>

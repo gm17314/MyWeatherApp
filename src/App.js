@@ -5,7 +5,7 @@ import bgImage from "./Component/background.jpg"
 
 function App() {
   return (
-    <div style={{backgroundImage:`url(${bgImage})`,height:"100vh"}}>
+    <div className='main' style={{backgroundImage:`url(${bgImage})`}}>
     <Navbar/>
     <Home/>
     </div>
